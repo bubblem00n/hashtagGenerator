@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
+  height: 100vh;
+}
+
+.title {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  margin-bottom: 25px;
+}
+
+input {
+  width: 300px;
+  height: 20px;
+  border-radius: 10px;
+
+  padding-left: 10px;
+  margin-bottom: 20px;
+  outline: none;
+  border: 1px solid rgb(9, 46, 58);
+}
